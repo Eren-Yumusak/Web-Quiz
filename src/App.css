@@ -1,0 +1,77 @@
+body {
+  background-color: #ffebf2; /* Light pink background */
+  font-family: "Trebuchet MS", Trebuchet MS, cursive; /* Cute font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.vcontainer {
+  text-align: center;
+  background-color: #fff0f6; /* Even lighter pink for the container */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cute-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 20px;
+  color: #ff69b4; /* Hot pink for the text */
+  margin-bottom: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.yesButton,
+.noButton,
+.quizButton {
+  background-color: #ffb6c1; /* Light pink button color */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.yesButton:hover,
+.noButton:hover,
+.quizButton:hover {
+  background-color: #ff69b4; /* Hot pink on hover */
+}
+
+.noButton {
+  font-size: 16px;
+}
+
+.quizButton {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+/* App.css */
+.red {
+  background-color: red;
+}
