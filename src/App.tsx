@@ -2,22 +2,22 @@ import { useState } from "react";
 import "./App.css";
 //import confetti from "https://cdn.skypack.dev/canvas-confetti";
 
-const phrases = ["No", "Seriously BB?", "Stop joking BB", "笨蛋"];
+const phrases = ["No", "Seriously?", "Stop joking"];
 const questions = [
   {
-    question: "Where did we meet?",
-    options: ["Drumsheds", "Colour Factory", "Fabric", "Sand Land"],
-    answer: "Fabric",
+    question: "Which one is a primary colour",
+    options: ["Red", "Purple", "Green", "Violet"],
+    answer: "Red",
   },
   {
-    question: "When is our anniversary",
-    options: ["21/01", "22/01", "10/08", "09/09"],
-    answer: "21/01",
+    question: "What is the Capital of England",
+    options: ["Petoria", "Paris", "London", "Namek"],
+    answer: "London",
   },
   {
-    question: "Do I love you?",
-    options: ["Yes", "No", "Red", "Yellow"],
-    answer: "Yes",
+    question: "How many continents are there on Earth?",
+    options: ["10", "3", "600", "7"],
+    answer: "7",
   },
 ];
 
@@ -93,38 +93,11 @@ function App() {
         {yesPressed ? (
           quizCompleted ? (
             <>
-              <p>生日快乐, 生日快乐 BB!</p>
+              <p>The quiz is now complete</p>
               <p>
                 Your score is {score}/{questions.length}
               </p>
-              <p>肖如兰好,</p>
-              <p>
-                I can’t believe it’s been almost two years together! Time flies
-                when you’re with someone as amazing as you. I just wanted to
-                take a moment to let you know how much you mean to me,
-                especially today, on your birthday and Valentine’s Day.
-              </p>
-              <p>
-                The past year and three-quarters have been a rollercoaster, but
-                having you by my side has made everything better. Whether it's
-                you helping me prep food on those crazy early shift mornings or
-                us brainstorming about the future, you’ve made every moment
-                special. I miss you so much when we're apart. It’s in those
-                moments that I realize how much you’ve become a part of my life.
-                Your little acts of kindness, your laugh, and even the way you
-                just get me without me having to say a word - brain connect!
-              </p>
-              <p>
-                Planning our future together has been such a joy. Your
-                enthusiasm and love make me so excited for what's to come. I
-                can't wait for all the adventures we'll have, big and small.
-                Thank you for everything you do, for being my rock, my partner
-                in crime, and the love of my life. Here’s to us, to you, and to
-                all the incredible moments ahead.
-              </p>
-              <p>Happy Birthday and Happy Valentine’s Day, bb.</p>
-              <p>Love you always,</p>
-              <p>Eren</p>
+              
             </>
           ) : (
             <p>
@@ -135,7 +108,7 @@ function App() {
         ) : noPressed ? (
           <p>😡What do you mean you're not ready😡</p>
         ) : (
-          <p>❤️Are you ready for the Valentines Quiz❤️</p>
+          <p>Are you ready for this generic quiz</p>
         )}
       </div>
       {yesPressed && !quizCompleted ? (
