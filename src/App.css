@@ -1,6 +1,6 @@
 body {
-  background-color: #ffebf2; /* Light pink background */
-  font-family: "Trebuchet MS", Trebuchet MS, cursive; /* Cute font */
+  background-color: #f5f5f5; /* Light gray background */
+  font-family: "Trebuchet MS", Trebuchet MS, sans-serif; /* Neutral font */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@ body {
 
 .vcontainer {
   text-align: center;
-  background-color: #fff0f6; /* Even lighter pink for the container */
+  background-color: #ffffff; /* White for the container */
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,7 +25,7 @@ body {
 
 .text {
   font-size: 20px;
-  color: #ff69b4; /* Hot pink for the text */
+  color: #4a4a4a; /* Neutral dark gray for the text */
   margin-bottom: 20px;
 }
 
@@ -44,7 +44,7 @@ body {
 .yesButton,
 .noButton,
 .quizButton {
-  background-color: #ffb6c1; /* Light pink button color */
+  background-color: #a8a8a8; /* Neutral gray button color */
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
@@ -58,7 +58,7 @@ body {
 .yesButton:hover,
 .noButton:hover,
 .quizButton:hover {
-  background-color: #ff69b4; /* Hot pink on hover */
+  background-color: #4a4a4a; /* Dark gray on hover */
 }
 
 .noButton {
@@ -73,5 +73,5 @@ body {
 
 /* App.css */
 .red {
-  background-color: red;
+  background-color: #8b0000; /* Dark red */
 }
